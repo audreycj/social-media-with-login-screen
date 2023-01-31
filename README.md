@@ -4,6 +4,8 @@ We were given the following instructions:
 
 -------
 
+![image](https://user-images.githubusercontent.com/68633976/215748916-2fbdec24-0a7e-4499-85d0-5a521b1f3bb1.png)
+
 Required Features: 
 - A Newsfeed that I can scroll through. (At least 10 posts)
 - A Header
