@@ -1,0 +1,121 @@
+html {
+background-color: #d6e1f1;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*======= MAIN FLEX CONTAINER (ENTIRE RECTNGLE) =======*/
+.flex-login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 70%;
+    width: 60%;
+}
+
+/*======= FLEX ITEM #1 (LEFT HALF) =======*/
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 55%;
+    padding: 32px;
+    border-radius: 20px 0 0 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    box-shadow: 5px 5px 15px 2px rgba(80, 80, 80, 0.75);
+}
+
+.website-logo {
+    height: 15%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40%;
+    width: 85%;
+    background-color: white;
+}
+
+.text-field {
+    width: 100%;
+    height: 18%;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.login-action-row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dual-action-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login-button {
+    width: 100%;
+    height: 20%;
+    background-color: #1f1f70;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0 4px 0;;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.login-button:hover {
+    background-color:#6f95cf;
+    color: white;
+}
+
+.login-action-row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*======= FLEXT ITEM #2 (RIGHT HALF) =======*/
+.side-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+    padding: 32px;
+    border-radius: 0 20px 20px 0;
+    background-color:#f3f6fb;
+    box-shadow: 5px 5px 15px 2px rgba(80, 80, 80, 0.75);
+}
+
+.decorative-image {
+    height: 75%;
+}

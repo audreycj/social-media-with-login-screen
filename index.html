@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Social Media: Login Form</title>
+        <link rel="stylesheet" href="css/app.css">
+        <script src="scripts/app.js"></script>
+    </head>
+
+    <body class="main-container">
+        <!-- ======= Main Flex Container (Entire Rectangle) ======= -->
+        <div class="flex-login-container">
+
+            <!-- ======= Flex Item #1 (Left Half) ======= -->
+            <div class="login-container">
+                <img src="assets/images/mock-social-media-logo.png" alt="Mock Social Media Logo" height="60" class="website-logo">
+                <h1>Welcome Back!</h1>
+
+                <form action="index2.html" method="POST" id="login-form">
+                    <input type="text" name="username" id="username" class="text-field" placeholder="Username" required>
+                    <!-- username: admin, PW: 1234 -->
+                    <input type="password" name="password" id="password" class="text-field"  placeholder="Password" required>
+                    <div class="login-action-row-1">
+                        <div class="dual-action-container">
+                            <input type="checkbox">
+                            <p>Remember Me</p>
+                        </div>
+                        <a href="https://www.google.com">Forgot password?</a>
+                    </div>
+                    <button type="button" onclick="validate()" class="login-button">Log In</button>
+                </form>
+
+                <div class="login-action-row-2">
+                    <p>Don't have an account? <a href="https://www.google.com">Sign up here</a></p>
+                </div>
+            </div>
+
+            <!-- ======= Flex Item #2 (Right Half) ======= -->
+            <div class="side-image-container">
+                <img src="assets/images/login-side-image.png" alt="Drawn Characters Interacting with Each Other" height="310" class="decorative-image">
+            </div>
+        </div>
+    </body>
+</html>

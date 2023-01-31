@@ -1,0 +1,533 @@
+<html>
+    <head>
+        <title>Social Media: News Feed</title>
+        <link rel="stylesheet" href="css/newsfeed.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <main>
+        <!-- ============== HEADER ============== -->
+            <header class="header">
+                <!---- LOGO, SEARCH BAR ---->
+                <div class="header-actions-1">
+                    <img src="assets/images/mock-social-media-logo.png" alt="Mock Social Media Logo" height="40" class="logo">
+                    <input type="text"class="search-bar" placeholder="Search">
+                </div>
+
+                <!---- TABS ---->
+                <div class="header-actions-2">
+
+                    <!---- PROFILE TAB ---->
+                    <a class="profile-tab" href="https://www.google.com">
+                        <img class="profile-picture" src="assets/images/profile-picture.png" alt="Profile Picture" height="48" width="48">
+                        <strong class="individual-element">Louise Rae Villegas</strong>
+                    </a>
+                    
+                    <div class="tab-container">
+                        <!---- CREATE TAB ---->
+                        <div class="other-tab">
+                            <a href="https://www.google.com">Home</a>
+                        </div>
+
+                        <!---- HOME TAB ---->
+                        <div class="other-tab">
+                            <a href="https://www.google.com">Discover</a>
+                        </div>
+                        
+                        <!---- ICON TABS (MESSAGES, NOTIFICATIONS, MORE OPTIONS) ---->
+                        <div class="icon-tab">
+                            <abbr title="Messages"><a class="individual-element" href="https://www.google.com"><i class="fa fa-envelope"></i></a></abbr>
+                            <abbr title="Notifications"><a class="individual-element" href="https://www.google.com"><i class="fa fa-bell"></i></a></abbr>
+                            <abbr title="More"><a class="individual-element" href="https://www.google.com"><i class="fa fa-caret-down"></i></a></abbr>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+
+        <!-- ============== MAIN CONTENTS ============== -->
+        <main class="flex-main">
+            <!-- ============== CONTAINER FOR ALL LEFT PANEL ELEMENTS ============== -->
+            <div class="flex-left-panel">
+                <!-- ========== LEFT PANEL: TRENDING TOPICS ========== -->
+                <div class="trend-heading">
+                    <h2>Trends for you</h2>
+                </div>
+                <div class="trend-content">
+                    <div class="trend-entry">
+                        <small>Anime</small><br>
+                        <strong>Attack on Titan S4</strong></br>
+                        <small>756.1K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>Gaming</small><br>
+                        <strong>League of legends: Viego</strong><br>
+                        <small>213.7K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>Gaming</small><br>
+                        <strong>League of Legends: K/DA</strong><br>
+                        <small>39.7K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>NBA</small><br>
+                        <strong>Lakers</strong><br>
+                        <small>425.7K posts</small>
+                    </div>                
+                    <div class="trend-entry">
+                        <small>Trending in the Philippines</small><br>
+                        <strong>He's Into Her</strong><br>
+                        <small>18.5K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>Anime</small><br>
+                        <strong>Jujutsu Kaisen</strong><br>
+                        <small>201.7K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>Trending in the Philippines</small><br>
+                        <strong>#PBBUNFAIR</strong><br>
+                        <small>2,061 posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>Music</small><br>
+                        <strong>Lo-Fi beats</strong><br>
+                        <small>35.2K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>COVID-19</small><br>
+                        <strong>New Vaccine</strong><br>
+                        <small>113.4K posts</small>
+                    </div>
+                    <div class="trend-entry">
+                        <small>Trending in the Philippines</small><br>
+                        <strong>Thank you shopee</strong><br>
+                        <small>4,092K posts</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ============== CONTAINER FOR ALL CENTER PANEL ELEMENTS ============== -->
+            <div class="flex-center-panel">
+                <!-- ============== CENTER PANEL: CREATE POST ============== -->
+                <div class="outer-container">
+                    <div class="create-post-panel">
+                        <img class="profile-picture" src="assets/images/profile-picture.png" alt="Profile Picture" height="48" width="48">
+                        <div class="action-panel">
+                            <textarea class="input-text" rows="6" placeholder="What's happening?"></textarea>
+                            <div class="create-post-action-row">
+                                <div class="main-action-row">
+                                    <abbr title="Photo"><div><button class="create-post-action-button"><i class="fa fa-image"></i></button></div></abbr>
+                                    <abbr title="Video"><div><button class="create-post-action-button"><i class="fa fa-film"></i></button></div></abbr>
+                                    <abbr title="Audio"><div><button class="create-post-action-button"><i class="fa fa-microphone"></i></button></div></abbr>
+                                    <abbr title="Poll"><div><button class="create-post-action-button"><i class="fa fa-pencil"></i></button></div></abbr>
+                                    <abbr title="Emoji"><div><button class="create-post-action-button"><i class="fa fa-thumbs-up"></i></button></div></abbr>
+                                    <abbr title="Schedule a post"><div><button class="create-post-action-button"><i class="fa fa-calendar"></i></button></div></abbr>
+                                </div>
+                                <abbr title="Publish post"><div><button class="create-post-action-button"><i class="fa fa-paper-plane"></i></button></div></abbr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ============== CENTER PANEL: NEWSFEED ============== -->
+                <!-- ============== Post 1 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-1.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Rina Millet</strong>
+                                <small class="timestamp">9 minutes ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>Can't believe I actually managed to exercise regularly for straight weeks.
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-1-media.jpg" alt="Home treadmill looking out to a swimming pool" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(1)" id="heart-button" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-1"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 2 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-2.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Dylan Myers</strong>
+                                <small class="timestamp">15 minutes ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>Finally got to take her for a ride again :)</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-2-media.jpg" alt="Motorcycle" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(2)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-2"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 3 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-3.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Lillia Sy</strong>
+                                <small class="timestamp">1 hour ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>Missing Tokyo so bad! <span class="hashtags">#Throwback</span></p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-3-media.jpg" alt="Tokyo with neon lights" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(3)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-3"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 4 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-4.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Mimi Sukuna</strong>
+                                <small class="timestamp">1 hour ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>just LOOK at this adorable babie</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-4-media.jpg" alt="Sleepy cat" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(4)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-4"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 5 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-5.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Mark Sun</strong>
+                                <small class="timestamp">2 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>back when i could casually get to high places haha</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-5-media.jpg" alt="Man on roof" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(5)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-5"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 6 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-6.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Aubrey Jones</strong>
+                                <small class="timestamp">3 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>Embracing the <i>plantita</i> life!</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-6-media.jpg" alt="Indoor plants" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(6)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-6"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 7 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-7.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Nick Park</strong>
+                                <small class="timestamp">3 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>Getting ready for my new mukbang video! Subscribe to my channel <a href="https://www.google.com" class="hashtags"><u>here!</u></a></p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-7-media.jpg" alt="Chicken wings" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(7)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-7"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 8 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-8.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Tiffany Young</strong>
+                                <small class="timestamp">3 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>Trying to study 😬</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-8-media.jpg" alt="Study desk set-up" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(8)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-8"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 9 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-9.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Kayle Stefan</strong>
+                                <small class="timestamp">3 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>My new stuff arrived today! I'm so excited to try them out!</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-9-media.png" alt="Make-up materials" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(9)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-9"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============== Post 10 ============== -->
+                <div class="newsfeed-panel">
+                    <div class="newsfeed-post">
+                        <div class="header-section">
+                            <img src="assets/images/newsfeed-post-10.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="profile-picture">
+                            <div class="name-section">
+                                <strong class="newsfeed-name">Derek Lim</strong>
+                                <small class="timestamp">4 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="content-section">
+                            <p>was feeling on fire today!!</p>
+                        </div>
+                        <div class="media-section">
+                            <img src="assets/images/newsfeed-post-10-media.jpg" alt="Beach volleyball" class="media" width="100%"> 
+                        </div>
+                        <div class="interaction-row">
+                            <div class="heart-container">
+                                <button onclick="react(10)" type="button" class="heart-action"><i class="fa fa-heart"></i></button>
+                                <div class="heart-count" id="heart-count-10"></div>
+                            </div>
+                            <div class="comment-container">
+                                <button type="button" class="comment-action"><i class="fa fa-comment"></i></button>
+                                <div class="comment-count"></div>
+                            </div>
+                            <div class="repost-container">
+                                <button type="button" class="repost-action"><i class="fa fa-retweet"></i></button>
+                                <div class="repost-count"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- ============== CONTAINER FOR ALL RIGHT PANEL ELEMENTS ============== -->
+            <div class="flex-right-panel">
+                <!-- ========== RIGHT PANEL: STORIES ========== -->
+                <div class="stories-panel">
+                    <div class="stories-heading">
+                        <h2>Stories</h2>
+                        <small><a>See all</a></small>
+                    </div>
+                    <div class="stories-row">
+                        <div class="story-profile-picture"><i class="fa fa-plus-circle"></i></div>
+                        <img src="assets/images/story-1.png" alt="Profile Picture of Random Mock Account" height="48" width="48" class="story-profile-picture">
+                        <img src="assets/images/story-2.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="story-profile-picture">
+                        <img src="assets/images/story-3.jpg" alt="Profile Picture of Random Mock Account" height="48" width="48" class="story-profile-picture">
+                    </div>
+                </div>
+
+
+                <!-- ========== RIGHT PANEL: WHO TO FOLLOW ========== -->
+                <div class="follow-suggestions-panel">
+                    <div class="follow-suggestions-heading">
+                        <h2>Who to follow</h2>
+                        <small><a>See all</a></small>
+                    </div>
+                    <div class="suggestions-section">
+                        <div class="suggestion-entry">
+                            <img src="assets/images/follow-suggestion-1.jpg" alt="Profile Picture of Random Mock Account" height="50" width="50" class="profile-picture">
+                            <div class="suggestion-name">
+                                <strong>Alice Yuren</strong>
+                                <small>just a dying computer science student</small>
+                            </div>
+                        </div>
+                        <div class="suggestion-entry">
+                            <img src="assets/images/follow-suggestion-2.jpg" alt="Profile Picture of Random Mock Account" height="50" width="50" class="profile-picture">
+                            <div class="suggestion-name">
+                                <strong>Janet Stelleum</strong>
+                                <small>stay hydrated, stay happpy, stay healthy</small>
+                            </div>
+                        </div>
+                        <div class="suggestion-entry">
+                            <img src="assets/images/follow-suggestion-3.jpg" alt="Profile Picture of Random Mock Account" height="50" width="50" class="profile-picture">
+                            <div class="suggestion-name">
+                                <strong>Adrian Weiss</strong>
+                                <small>why did the chicken cross the road?</small>
+                            </div>
+                        </div>
+                        <div class="suggestion-entry">
+                            <img src="assets/images/follow-suggestion-4.jpg" alt="Profile Picture of Random Mock Account" height="50" width="50" class="profile-picture">
+                            <div class="suggestion-name">
+                                <strong>Alec Rosales</strong>
+                                <small>cyclist | soon-to-be cardiologist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
+
+
+
