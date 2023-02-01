@@ -2,6 +2,8 @@
 live website: https://audreycj.github.io/social-media-with-login-screen/
 
 This was a formative assessment for our IT103P (Web Programming) course during my 2nd year as a Computer Science student.
+We weren't taught responsive design tools yet at this time, like flexbox or css grid, so this website will seem a bit wonky to those with smaller desktop smaller screens. I usually zoom it out in this case.
+
 We were given the following instructions:
 
 -------
