@@ -1,4 +1,6 @@
 # social-media-with-login-screen
+live website: https://audreycj.github.io/social-media-with-login-screen/
+
 This was a formative assessment for our IT103P (Web Programming) course during my 2nd year as a Computer Science student.
 We were given the following instructions:
 
