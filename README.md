@@ -2,13 +2,14 @@
 live website: https://audreycj.github.io/social-media-with-login-screen/
 
 This was a formative assessment for our IT103P (Web Programming) course during my 2nd year as a Computer Science student.
-We weren't taught responsive design tools yet at this time, like flexbox or css grid, so this website will seem a bit wonky to those with smaller desktop smaller screens. I usually zoom it out in this case.
+
+We weren't taught responsive design tools yet at this time, like flexbox or css grid, so this website will seem a quite wonky to those with smaller desktop smaller screens. I usually zoom it out in this case.
+
+In the login screen, username is 'admin' and password is '1234'.
 
 We were given the following instructions:
 
 -------
-
-![image](https://user-images.githubusercontent.com/68633976/215748916-2fbdec24-0a7e-4499-85d0-5a521b1f3bb1.png)
 
 Required Features: 
 - A Newsfeed that I can scroll through. (At least 10 posts)
